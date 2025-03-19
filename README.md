@@ -12,6 +12,6 @@ AgACI combines multiple ACI experts with different γ_k values, dynamically adap
 ## Contents
 
 - **`Adaptive Conformal Prediction Analysis.Rmd`** → Detailed report with explanations and code
-- **`Adaptive_Conformal_Prediction_Analysis.R`** → Extracted R script
+
 
 
