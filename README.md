@@ -1,31 +1,17 @@
 # Adaptive Conformal Prediction Analysis
 
-**📌 Progetto: Adaptive Conformal Prediction Analysis**  
-🔬 **Autori**: Giuseppina Orefice, Alessandra Campanella  
-📅 **Data**: 12 gennaio 2025  
+**Project: Adaptive Conformal Prediction Analysis**  
+**Authors**: Giuseppina Orefice, Alessandra Campanella  
+**Date**: 12 gennaio 2025  
 
-## 🔍 Descrizione
+This project implements the AgACI (Adaptive Aggregated Conformal Inference) method, an extension of ACI (Adaptive Conformal Inference) that eliminates the need to manually select the adaptation parameter γ.
 
-Questo progetto implementa il metodo **AgACI (Adaptive Aggregated Conformal Inference)**, un'estensione dell'**ACI (Adaptive Conformal Inference)** che elimina la necessità di scegliere manualmente il parametro di adattamento **γ**.  
+AgACI combines multiple ACI experts with different γ_k values, dynamically adapting predictions to ensure robustness against changes in time series data. 
 
-L'AgACI combina più esperti ACI con differenti valori di **γ_k**, adattando dinamicamente la predizione per garantire robustezza ai cambiamenti nelle serie temporali.  
 
-## 📂 Contenuto
+## Contents
 
-- **`Adaptive Conformal Prediction Analysis.Rmd`** → Report dettagliato con spiegazioni e codice.  
-- **`Adaptive_Conformal_Prediction_Analysis.R`** → Script con il codice R estratto.  
+- **`Adaptive Conformal Prediction Analysis.Rmd`** → Detailed report with explanations and code
+- **`Adaptive_Conformal_Prediction_Analysis.R`** → Extracted R script
 
-## 🚀 Istruzioni per l'uso
 
-1. Clona il repository:  
-   ```sh
-   git clone https://github.com/username/Adaptive_Conformal_Prediction.git
-   cd Adaptive_Conformal_Prediction
-   ```
-2. Esegui lo script R:  
-   ```r
-   source("Adaptive_Conformal_Prediction_Analysis.R")
-   ```
-
----
-📧 Per domande o suggerimenti, contattaci!  
